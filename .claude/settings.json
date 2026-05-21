@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//usr/lib/**)",
+      "Read(//usr/local/lib/**)",
+      "Read(//usr/include/**)",
+      "Bash(wget -q https://project-downloads.drogon.net/wiringpi-latest.deb -O /tmp/wiringpi-latest.deb)",
+      "Bash(apt-cache search:*)",
+      "Bash(apt-cache show:*)",
+      "Bash(curl -I --max-time 10 https://project-downloads.drogon.net/)",
+      "Read(//tmp/WiringPi/**)"
+    ]
+  }
+}

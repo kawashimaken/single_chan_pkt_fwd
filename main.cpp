@@ -71,7 +71,7 @@ int RST   = 0;
 sf_t sf = SF7;
 
 // Set center frequency
-uint32_t  freq = 868100000; // in Mhz! (868.1)
+uint32_t  freq = 923200000; // in Mhz! (923.2) AS923 Japan
 
 // Set location
 float lat=0.0;
